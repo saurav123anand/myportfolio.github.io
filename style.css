@@ -326,6 +326,16 @@ ul{
 	background-color: var(--buttonColor);
 	border:none;
 }
+footer{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer h6{
+     font-size: 16px;
+    padding: 8px 0px;
+}
 @media only screen and (max-width:1250px){
     .main-container{
         width:95%;
